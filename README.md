@@ -4,7 +4,7 @@ This plugin is to make developers life easy when it comes to create a catalog to
 ###Options:
 
 
- **Mapping**
+- [Mapping]
   - [source: *string*]
   - [dataField: *string*]
   - [colText: *string*]
