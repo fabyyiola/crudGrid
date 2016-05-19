@@ -4,8 +4,12 @@ This plugin is to make developers life easy when it comes to create a catalog to
 ###Options:
 
 
-  **Mapping**
-  - dataField: string
-  - colText: string
-  - [visible: bool]
+ **Mapping**
+  - [source: *string*]
+  - [dataField: *string*]
+  - [colText: *string*]
+  - [visible: *bool*]
+  -  [addRow]
+     - [defaultValue: *function*|*bool*|*int*|*string*]
+     - [enabled: *bool*]
   
