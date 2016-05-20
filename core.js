@@ -28,3 +28,18 @@ function isSet(obj, path) {
     }
     return res;
 }
+
+
+function compare(obj1, obj2) {
+    if (obj1 != null) {
+        if (obj2 != null) {
+            if (obj1 == obj2) {
+                return true;
+            }
+        } else {
+            return false;
+        }
+    } else {
+        return false;
+    }
+}
