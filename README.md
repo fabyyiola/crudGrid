@@ -13,7 +13,7 @@ This plugin is to make developers life easy when it comes to create a catalog to
 ###Options:
 
 - source: *json*
-- [Mapping](http://google.com): *array*
+- [Mapping](https://jsfiddle.net/fabyyiola/tvcLh3an/10/): *array*
   - dataField: *string*
   - colText: *string*
   - [visible: *bool*]
