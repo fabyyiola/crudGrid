@@ -73,9 +73,9 @@
                     if (isSet(column.type)) {
                         if (column.type.toUpperCase() == "BIT") {
                             if (value == true || value.toString().toUpperCase() == "TRUE" || value == 1 || value.toString() == "1") {
-                                return '<div class="checkbox c-checkbox" style="margin:0px;cursor:default;display:inline"><label><input type="checkbox" checked="" disabled><span class="fa fa-check" style="border-color: #5d9cec !important;background-color: #5d9cec !important;"></span></label></div>';
+                                return '<div class="checkbox c-checkbox"><label><input type="checkbox" checked="" disabled><span class="fa fa-check" style="border-color: #5d9cec !important;background-color: #5d9cec !important;"></span></label></div>';
                             } else if (!(value == true || value.toString().toUpperCase() == "TRUE" || value == 1 || value.toString() == "1")) {
-                                return '<div class="checkbox c-checkbox" style="margin:0px;cursor:default;display:inline"><label><input type="checkbox" disabled><span class="fa fa-check" style="border-color: #ccc !important;background-color: white !important;"></span></label></div>';
+                                return '<div class="checkbox c-checkbox"><label><input type="checkbox" disabled><span class="fa fa-check" style="border-color: #ccc !important;background-color: white !important;"></span></label></div>';
                             }
                         } else {
                             console.log('Column type ' + column.type + ' not handled.')
