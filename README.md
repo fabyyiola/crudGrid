@@ -11,12 +11,25 @@ This plugin is to make developers life easy when it comes to create a catalog to
   
 ###Options:
 
-- source: *{}*
+- source: *json*
 - [Mapping]
   - [dataField: *string*]
   - [colText: *string*]
   - [visible: *bool*]
+  - [width: *string*]
+  - [html: *function(value)*]
+  - [css: *string*]
+  - [type: *string*]
   -  [addRow]
-     - [defaultValue: *function*|*bool*|*int*|*string*]
+     - [defaultValue: *function()*|*bool*|*int*|*string*]
      - [enabled: *bool*]
+- [caseSensitive: *bool*]
+- [addRow: *bool*]
+- [editable: *bool*]
+- [deletable: *bool*]
+- [extraParamsOnSave: *function()*]
+- [onRefresh: *function()*]
+- [onSave: *function(values)*]
+- [onUpdate: *function(values)*]
+- [onDelete: *function(row)*]
   
