@@ -23,14 +23,14 @@ This plugin is to make developers life easy when it comes to create a catalog to
   - [type: *string*]
   -  [addRow]
      - [[defaultValue: *function()*|*bool*|*int*|*string*]](https://jsfiddle.net/fabyyiola/a0v85668/1/)
-     - [[enabled: *bool*]](https://jsfiddle.net/fabyyiola/dLvho5th/1/)
+     - [[enabled: *bool*]](https://jsfiddle.net/fabyyiola/a0v85668/2/)
 - [[caseSensitive: *bool*]](https://jsfiddle.net/fabyyiola/dLvho5th/1/)
 - [[addRow: *bool*]](https://jsfiddle.net/fabyyiola/a0v85668/1/)
 - [[editable: *bool*]](https://jsfiddle.net/fabyyiola/7xya66ee/)
 - [[deletable: *bool*]](https://jsfiddle.net/fabyyiola/tnwj7e1t/1/)
-- [extraParamsOnSave: *function()*]
+- [[extraParamsOnSave: *function()*]](https://jsfiddle.net/fabyyiola/0ggjmvr7/)
 - [[onRefresh: *function()*]](https://jsfiddle.net/fabyyiola/vjum5bj0/)
 - [[onSave: *function(values)*]](https://jsfiddle.net/fabyyiola/a0v85668/1/)
 - [[onUpdate: *function(values)*]](https://jsfiddle.net/fabyyiola/7xya66ee/)
-- [onDelete: *function(row)*]
+- [[onDelete: *function(row)*]](https://jsfiddle.net/fabyyiola/tnwj7e1t/3/)
   
