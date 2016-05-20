@@ -158,7 +158,7 @@
                                     deferred = options.onUpdate(values);
                                 } catch (ex) {
                                     console.log(ex);
-                                    $(tbl).notify("Menu saved correctly.", "success");
+                                    alert("Menu saved correctly.", "success");
                                 }
                                 if (deferred != null) {
                                     div.prepend('<div id="divWaiting" style="position: absolute;height: 31px;width: 100%;margin-top: -1px;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;background: linear-gradient(      rgba(0, 0, 0, 0.4),       rgba(0, 0, 0, 0.4)    );text-align: center;"><i class="fa fa-spinner fa-pulse fa-fw margin-bottom" style="color: white;margin-top: 9px;"></i></div>');
@@ -179,11 +179,11 @@
                                     });
                                 } else {
                                     console.log("The deferred object not being returned by onUpdate function");
-                                    $(tbl).notify("Record inserted, but a problem ocured during data rendering.", { position: "bottom right", autoHide: false, clickToHide: true });
+                                    alert("Record inserted, but a problem ocured during data rendering.", { position: "bottom right", autoHide: false, clickToHide: true });
                                 }
                             } else {
                                 console.log('The onUpdate event is not handled.');
-                                $(tbl).notify("Record unable to update. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
+                                alert("Record unable to update. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
                             }
                             e.preventDefault();
                         });
@@ -194,11 +194,11 @@
                                 }
                                 catch (ex) {
                                     console.log(ex);
-                                    $(tbl).notify("Record unable to delete. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
+                                    alert("Record unable to delete. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
                                 }
                             } else {
                                 console.log("The event onDelete is not handled.");
-                                $(tbl).notify("Record unable to delete. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
+                                alert("Record unable to delete. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
                             }
                             self.next().detach();
                             self.detach();
@@ -253,7 +253,7 @@
                     if (isSet(options.extraParamsOnSave)) {
                         if (typeof options.extraParamsOnSave != "function") {
                             console.log("The property extraParamsOnSave should be a function.");
-                            $(tbl).notify("There was a conflict with the configuration of this grid, please contact IT. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
+                            alert("There was a conflict with the configuration of this grid, please contact IT. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
                         } else {
                             values = $.merge(values, options.extraParamsOnSave())
                         }
@@ -269,7 +269,7 @@
                     if (isSet(options.extraParamsOnUpdate)) {
                         if (typeof options.extraParamsOnUpdate != "function") {
                             console.log("The property extraParamsOnUpdate should be a function.");
-                            $(tbl).notify("There was a conflict with the configuration of this grid, please contact IT. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
+                            alert("There was a conflict with the configuration of this grid, please contact IT. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
                         } else {
                             values = $.merge(values, options.extraParamsOnUpdate())
                         }
