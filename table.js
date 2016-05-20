@@ -402,10 +402,10 @@
                                 var destiny = property;
                                 var source = this.dataField;
                                 if (compare(options.caseSensitive, false)) {
-                                    destiny = destiny.toUpperCase();
-                                    source = source.toUpperCase();
+                                    destiny = this.dataField.toUpperCase();
+                                    source = property;
                                 }
-                                if (property == this.dataField) {
+                                if (source == destiny) {
                                     found = true;
                                     if (row[columns[property]] != null) {
                                         var td = cols.getContent(this, row[columns[property]]);
