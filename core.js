@@ -1,3 +1,4 @@
+//function to define if the plugin is being intialized or executing a method
 function executePlugin(methods, method, options, selfElement) {
     if (methods[method]) {
         if (options == null) options = {};
@@ -14,7 +15,7 @@ function executePlugin(methods, method, options, selfElement) {
         throw ({ message: msg, stack: msg });
     }
 }
-
+//function to evaluate if a variable has 1 or N children variables declared
 function isSet(obj, path) {
     var res = false;
     if (path == null) {
