@@ -402,8 +402,8 @@
                                 var destiny = property;
                                 var source = this.dataField;
                                 if (compare(options.caseSensitive, false)) {
-                                    destiny = this.dataField.toUpperCase();
-                                    source = property;
+                                    destiny = destiny.toUpperCase();
+                                    source = source.toUpperCase();
                                 }
                                 if (source == destiny) {
                                     found = true;
