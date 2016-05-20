@@ -326,11 +326,11 @@
                             }
                             catch (ex) {
                                 console.log(ex);
-                                $(options.self).notify("Record unable to save. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
+                                alert("Record unable to save. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
                             }
                         } else {
                             console.log('The onSave event is not handled.');
-                            $(options.self).notify("Record unable to save. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
+                            alert("Record unable to save. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
                         }
                         tbl.gkcTable_('refresh');
                     }
@@ -460,7 +460,7 @@
                     }
                     catch (ex) {
                         console.log(ex);
-                        $(options.self).notify("Table is unable to refresh. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
+                        alert("Table is unable to refresh. (click to close.)", { position: "bottom right", autoHide: false, clickToHide: true });
                     }
                 } else {
                     console.log('The refresh event is not handled.');
