@@ -12,9 +12,9 @@ This plugin is to make developers life easy when it comes to create a catalog to
 ###Options:
 
 - source: *json*
-- [Mapping]
-  - [dataField: *string*]
-  - [colText: *string*]
+- [Mapping]: *array*
+  - dataField: *string*
+  - colText: *string*
   - [visible: *bool*]
   - [width: *string*]
   - [html: *function(value)*]
