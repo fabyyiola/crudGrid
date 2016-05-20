@@ -21,7 +21,7 @@ This plugin is to make developers life easy when it comes to create a catalog to
   - [[html: *function(value)*]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
   - [[css: *string*]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
   - [[type: *string*]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
-  -  [addRow]
+  -  [[addRow]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
      - [[defaultValue: *function()*|*bool*|*int*|*string*]](https://jsfiddle.net/fabyyiola/a0v85668/1/)
      - [[enabled: *bool*]](https://jsfiddle.net/fabyyiola/a0v85668/2/)
 - [[caseSensitive: *bool*]](https://jsfiddle.net/fabyyiola/dLvho5th/1/)
