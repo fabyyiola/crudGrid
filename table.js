@@ -476,19 +476,3 @@
         throw err;
     }
 } (jQuery));
-
-
-
-function isSet(obj, path) {
-    var res = false;
-    if (path == null) {
-        if (obj != null) {
-            res = true;
-        }
-    } else {
-        var strEval = "try{if(obj." + path + " != null){res = true}}catch(ex){}";
-        eval(strEval);
-    }
-    debugging;
-    return res;
-}
