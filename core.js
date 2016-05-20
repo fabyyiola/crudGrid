@@ -14,3 +14,16 @@ function executePlugin(methods, method, options, selfElement) {
         throw ({ message: msg, stack: msg });
     }
 }
+
+function isSet(obj, path) {
+    var res = false;
+    if (path == null) {
+        if (obj != null) {
+            res = true;
+        }
+    } else {
+        var strEval = "try{if(obj." + path + " != null){res = true}}catch(ex){}";
+        eval(strEval);
+    }
+    return res;
+}
