@@ -25,7 +25,7 @@ This plugin is to make developers life easy when it comes to create a catalog to
      - [defaultValue: *function()*|*bool*|*int*|*string*]
      - [enabled: *bool*]
 - [[caseSensitive: *bool*]](https://jsfiddle.net/fabyyiola/dLvho5th/1/)
-- [addRow: *bool*]
+- [[addRow: *bool*]](https://jsfiddle.net/fabyyiola/a0v85668/1/)
 - [editable: *bool*]
 - [deletable: *bool*]
 - [extraParamsOnSave: *function()*]
