@@ -13,7 +13,7 @@ This plugin is to make developers life easy when it comes to create a catalog to
 ###Options:
 
 - [source](https://jsfiddle.net/fabyyiola/mfjq6dce/4/): *json*
-- [mapping](https://jsfiddle.net/fabyyiola/tvcLh3an/10/): *array*
+- [[mapping]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/): *array*
   - dataField: *string*
   - colText: *string*
   - [visible: *bool*]
