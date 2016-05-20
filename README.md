@@ -12,15 +12,15 @@ This plugin is to make developers life easy when it comes to create a catalog to
 
 ###Options:
 
-- [source](https://jsfiddle.net/fabyyiola/mfjq6dce/4/): *json*
-- [[mapping]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/): *array*
-  - dataField: *string*
-  - colText: *string*
-  - [visible: *bool*]
-  - [width: *string*]
-  - [html: *function(value)*]
-  - [css: *string*]
-  - [type: *string*]
+- [source: *json*](https://jsfiddle.net/fabyyiola/mfjq6dce/4/)
+- [[mapping]: *array*](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
+  - [dataField: *string*](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
+  - [colText: *string*](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
+  - [[visible: *bool*]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
+  - [[width: *string*]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
+  - [[html: *function(value)*]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
+  - [[css: *string*]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
+  - [[type: *string*]](https://jsfiddle.net/fabyyiola/tvcLh3an/10/)
   -  [addRow]
      - [[defaultValue: *function()*|*bool*|*int*|*string*]](https://jsfiddle.net/fabyyiola/a0v85668/1/)
      - [[enabled: *bool*]](https://jsfiddle.net/fabyyiola/a0v85668/2/)
